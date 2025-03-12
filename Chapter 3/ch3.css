@@ -1,0 +1,77 @@
+/* BODY STYLING */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #faf6d8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* TITLE */
+h1 {
+    font-family: 'Parisienne', cursive;
+    color: #9fd0ef;
+    background-color: #0359b4; /* Filled frame color */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* IMAGE STYLING */
+.image-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: brightness(90%) saturate(110%);
+    border-radius: 10px;
+}
+
+.yellow-frame {
+    background-color: #fedd0c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.blue-frame {
+    background-color: #0a81ca;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* CAPTION STYLING */
+.caption {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* LINK STYLING */
+.yellow-frame .caption a {
+    color: #0359b4; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blue-frame .caption a {
+    color: #fedd0c; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* LINK EFFECTS */
+.caption a:hover {
+    text-decoration: underline;
+}
+
